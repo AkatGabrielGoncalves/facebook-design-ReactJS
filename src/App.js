@@ -4,7 +4,8 @@ import Main from './components/Main/Main.js';
 import './App.css'
 
 export default function App() {
-  return (<>
+  return (
+    <>
       <Header/>
       <Main/>
     </>

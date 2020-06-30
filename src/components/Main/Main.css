@@ -1,0 +1,71 @@
+main {
+  margin-top: 5%;
+  width: 50%;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px 1px rgba(1, 1, 1, 0.171);
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+
+.owner {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  width: 90%;
+  border-style: ridge;
+}
+
+main img {
+  width: 5%;
+  height: 1%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ownerName {
+  padding: 5px;
+}
+
+main h4, p {
+  margin: 0px;
+}
+
+main p {
+  font-size: 75%;
+}
+
+.messages {
+  display: flex;
+}
+
+.content {
+  padding: 12px;
+}
+
+main div {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.messages div {
+  /* box-shadow: 1px 1px 8px 1px rgba(1, 1, 1, 0.205); */
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(202, 202, 202, 0.315);
+}
+
+main h5 {
+  margin: 0px;
+  margin-bottom: 2px;
+}
